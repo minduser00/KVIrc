@@ -2101,7 +2101,7 @@ msgstr "Limpiar lista de servidores recientes"
 
 #: src/kvirc/kernel/KviDefaultScript.cpp:393
 msgid "Clear custom scripts"
-msgstr "Borrar scripts por defecto"
+msgstr "Borrar scripts personalizados"
 
 #: src/kvirc/ui/KviIrcView_events.cpp:852
 msgid "Click to open this link"
