@@ -202,7 +202,7 @@ namespace KviKvsCoreCallbackCommands
 				}
 				[comment]# Remove the alias j[/comment]
 				alias(j){}
-				[comment]# Add the alias j in namespace letters[/comments]
+				[comment]# Add the alias j in namespace letters[/comment]
 				alias(letters::j)
 				{
 					[cmd]echo[/cmd] "j"
