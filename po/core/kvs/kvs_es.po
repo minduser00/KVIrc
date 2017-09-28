@@ -265,7 +265,7 @@ msgstr "No hay variables de alcance extendido en este ámbito"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeExpression.cpp:218
 msgid "Operand of unary operator didn't evaluate to a number"
-msgstr ""
+msgstr "Operando de operador unario no evaluó a un número"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeExpression.cpp:367
 msgid "Left operand didn't evaluate to a number"
@@ -284,6 +284,8 @@ msgstr ""
 msgid ""
 "Internal error: trying to evaluate as read-write a read-only data location"
 msgstr ""
+"Error interno: intentando evaluar como lectura-escritura una locación de "
+"solo lectura"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeData.cpp:96
 msgid "Internal error: pure virtual evaluateReadOnlyInObjectScope called"
@@ -295,7 +297,7 @@ msgstr ""
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeArrayElement.cpp:65
 msgid "Array index didn't evaluate to an integer"
-msgstr ""
+msgstr "Índice de matriz no evaluó a un numero entero"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeArrayElement.cpp:71
 msgid ""
