@@ -265,7 +265,7 @@ msgstr "No hay variables de alcance extendido en este ámbito"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeExpression.cpp:218
 msgid "Operand of unary operator didn't evaluate to a number"
-msgstr "Operando de operador unario no evaluó a un número"
+msgstr ""
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeExpression.cpp:367
 msgid "Left operand didn't evaluate to a number"
@@ -285,7 +285,7 @@ msgid ""
 "Internal error: trying to evaluate as read-write a read-only data location"
 msgstr ""
 "Error interno: intentando evaluar como lectura-escritura una locación de "
-"solo lectura"
+"solo escritura"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeData.cpp:96
 msgid "Internal error: pure virtual evaluateReadOnlyInObjectScope called"
@@ -297,7 +297,7 @@ msgstr ""
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeArrayElement.cpp:65
 msgid "Array index didn't evaluate to an integer"
-msgstr "Índice de matriz no evaluó a un numero entero"
+msgstr "El índice de matriz no evaluó como un entero"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeArrayElement.cpp:71
 msgid ""
@@ -319,7 +319,6 @@ msgid ""
 msgstr ""
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeArrayCount.cpp:69
-#, fuzzy
 msgid ""
 "The argument of the array count '#' operator didn't evaluate to an array: "
 "automatic conversion from type '%Q' supplied"
@@ -334,7 +333,7 @@ msgstr ""
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeAliasSimpleCommand.cpp:102
 msgid "Failed to send an unknown command as /raw"
-msgstr ""
+msgstr "Fallo al enviar un comando desconocido como /raw"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeAliasSimpleCommand.cpp:103
 #: src/kvirc/kvs/tree/KviKvsTreeNodeAliasSimpleCommand.cpp:106
@@ -402,6 +401,7 @@ msgstr ""
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:557
 msgid "Unexpected end of buffer in function parameter list reminder"
 msgstr ""
+"Final inesperado de buffer en lista recordatoria de parámettros de función"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:664
 msgid "The while command needs an expression enclosed in parenthesis"
@@ -498,12 +498,11 @@ msgstr "El comando 'foreach' necesita una expresión entre parentesis"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1224
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1234
-#, fuzzy
 msgid ""
 "The 'foreach' command expects a writable iteration variable as first "
 "parameter"
 msgstr ""
-"El comando' foreach' espera una variable de iteración que se pueda escribir "
+"El comando' foreach' espera una variable de iteración de lectura-escritura "
 "como primer parámetro"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1225
@@ -555,6 +554,8 @@ msgid ""
 "Found character %q (unicode %x) where a 'case','match','regexp','default' or "
 "'break' label was expected"
 msgstr ""
+"Encontrado carácter %q (unnicode %x), se esperaba una etiqueta 'case','match',"
+"'regexp','default' o 'break'"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1511
 msgid ""
@@ -576,7 +577,7 @@ msgstr "Comando switch vacío sin sentido: corrige la secuencia de comandos"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1613
 msgid "Unexpected end of buffer in defpopup block"
-msgstr ""
+msgstr "Final inesperado de buffer en bloque de definicion de menú emergente"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1620
 msgid ""
@@ -588,10 +589,14 @@ msgstr ""
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1717
 msgid "Found empty prologue block: maybe you need to fix the script?"
 msgstr ""
+"Encontrado bloque prólogo vacio: ¿quizas necesita reparar la secuencia de "
+"comandos?"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1719
 msgid "Found empty epilogue block: maybe you need to fix the script?"
 msgstr ""
+"Encontrado bloque epílogo vacio: ¿quizas necesita reparar la secuencia de "
+"comandos?"
 
 #: src/kvirc/kvs/parser/KviKvsParser_specialCommands.cpp:1759
 msgid ""
