@@ -426,7 +426,7 @@ KVSCF(gender)
 				[cmd]echo[/cmd] $iconname([fnc]$icon[/fnc](linux))
 			[/example]
 		@seealso:
-			[fnc]$iconName[/fnc]
+			[fnc]$icon[/fnc]
 	*/
 
 	KVSCF(iconName)
