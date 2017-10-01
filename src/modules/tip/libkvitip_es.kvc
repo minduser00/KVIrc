@@ -1,0 +1,26 @@
+[KVIrc]
+uNextTip=0
+uNumTips=22
+TranslatorHint=This-file-MUST-be-encoded-in-UTF8
+0=Puede abrir conexiones a múltiples servidores en una única ventana de KVIrc, simplemente seleccione "Nuevo Contexto IRC" en el menú de KVIrc.
+1=IPv6 es ahora totalmente compatible, incluso para las transferencias DCC. El comando es <br><b>/server -i &lt;servername&gt;</b>.  :)
+2=KVIrc soporta cifrado SSL.<br>Se pueden establecer conexiones IRC cifradas SSL usando <b>/server -s</b>, y conexiones DCC usando <b>/dcc.chat -s</b><br> También funciona sobre IPv6.
+3=Un <b>contexto IRC</b> es un conjunto de recursos relativos a una única conexión de servidor. Tiene asociada una ventana <b>Consola</b> que muestra los mensajes del sistema y del servidor
+4=KVIrc es una aplicación altamente modular. Los módulos se cargan y descargan de forma transparente al usuario (¡e incluso al programador!). También puede escribir sus propios módulos que amplíen el lenguaje de programación, o añadir otras características.
+5=KVIrc soporta múltiples programas controladores para un solo evento. Esto permite instalar varios programas al mismo tiempo, evita las colisiones del gestor y ayuda a añadir/eliminar y activar/desactivar secciones de programas.
+6=KVIrc soporta el Localizador Uniforme de Recursos (LUR o URL) <b>irc://</b>. Ejecute el comando: <br><b>kvirc irc://irc.suservidor.org:6667/canal</b><br> para conectarse a ese servidor.<br>La sintaxis general es:<br><b>irc[6]://&lt;nombre-del-servidor&gt;[:&lt;puerto&gt;][/[&lt;canal&gt;[?&lt;contraseña&gt;]]]</b>
+7=El ejecutable KVIrc actúa como el comando "netscape -remote", si una instancia de KVIrc ya está ejecutándose, los parámetros de la línea de comandos se pasan a esa instancia vía IPC. Puede anular este comportamiento con el modificador <b>-f</b>.
+8=KVIrc puede ser el manejador de su navegador para enlaces <b>irc://</b>. Si KVIrc tiene soporte de KDE, debería poder ejecutarlo simplemente escribiendo un enlace <b>irc://</b> en la barra de navegación de Konqueror. <br>Pruebey <b>irc://irc.freenode.net/kvirc</b> :)
+9=Se pueden crear enlaces para servidores IRC IPv6, en este caso se aplica la siguiente sintaxis:<br><b>irc6://&lt;nombre-servidor-ipv6&gt;[:&lt;puerto&gt;][/[&lt;canal&gt;[?&lt;contraseña&gt;]]]</b>
+10=Puede cambiar entre ventanas pulsando <b>Alt+Arriba/Abajo</b>. <b>Mayusculas+Alt+Arriba/Abajo</b> sólo cambia entre ventanas del contexto actual.
+11=Un método rápido para conectarse a un servidor en un nuevo contexto IRC es <b>/server -n &lt;nombredeservidor&gt;</b>
+12=KVIrc es portable entre Windows, Mac OSX, Linux y otros tipos de máquinas Unix. Si eres un buen programador, tus scripts también serán portátiles!
+13=¿Quiere entrar automáticamente a un canal al conectar?<br>¡Facil!<br>Simplemente haga clic en "Avanzado" en la configuración del servidor y añada el canal en la pestaña "Entrar a canales". Para algo que funciona para todos los servidores, intente <b>/event(OnIrc,autojoin){ join #sucanal; }</b>
+14=¿Sabe lo que es un avatar ? Pruebe <b>/help The AVATAR idea</b>
+15=La página de configuración de DCC tiene muchas opciones que pueden ayudarle a resolver muchos problemas comunes de conexión DCC. La gente detrás de los cortafuegos también puede enviar datos. Es sólo cuestión de organizar las cosas. :)
+16=KVIrc soporta muchas codificaciones de caracteres de 8 bits. Usted puede "hablar" KOI8-R basado en ruso en un canal y japonés en otro sobre la misma conexión (con las fuentes apropiadas). Le recomendamos encarecidamente que utilice <b>Unicode</b> (UTF-8), que soporta casi todos los idiomas del mundo.
+17=Para evitar transferencias excesivas de DCC, se recomienda que usted ponga sus avatares disponibles en la Web. También puedes usar cualquier imagen existente en la Web como avatar. <br><b>/avatar #yourchan http://funnyhost.com/funny/funny.png</b> ¡funcionará!
+18=KVIrc incluido un cliente HTTP, y puede descargar archivos de la Web usando el comando <b>/http.get</b>.
+19=¿No le gusta la lista de ventanas en arbol? Puede optar a un barra de canales traicional (similar a mIRC) en configurar tema/Lista de ventanas.
+20=Puede copiar texto de la ventana de texto al portapapeles simplemente seleccionándolo con el ratón. Si mantiene pulsada la tecla Mayúsculas también se copiarán los códigos de color.
+21=Este es el último consejo. Puede añadir sus propios consejos - Pruebe <b>/help tip.open</b>. Sientase libre de enviar mas consejos (en cualquier idioma) a <b>trisk-kvirc(at)quasarnet.org</b>.
