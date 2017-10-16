@@ -900,7 +900,7 @@ protected:
 	* \brief Called by KviIrcLink when the socket state changes to Connected
 	* \return void
 	*/
-	void linkEstabilished();
+	void linkEstablished();
 
 	/**
 	* \brief Called by KviIrcLink when the socket state changes to Ready
