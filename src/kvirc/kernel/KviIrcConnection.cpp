@@ -315,7 +315,7 @@ void KviIrcConnection::start()
 	m_pLink->start();
 }
 
-void KviIrcConnection::linkEstabilished()
+void KviIrcConnection::linkEstablished()
 {
 	m_eState = Connected;
 
