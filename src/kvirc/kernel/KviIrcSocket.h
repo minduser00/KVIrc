@@ -293,7 +293,7 @@ protected:
 	* we're connected to the irc server
 	* \return void
 	*/
-	void connectionEstabilished();
+	void connectionEstablished();
 
 	/**
 	* \brief Called when the connection to the proxy has been established
