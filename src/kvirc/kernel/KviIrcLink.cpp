@@ -178,7 +178,7 @@ void KviIrcLink::resolverTerminated()
 {
 	if(!m_pResolver)
 	{
-		qDebug("Oops... resoverTerminated() triggered without a resolver ?");
+		qDebug("Oops... resolverTerminated() triggered without a resolver ?");
 		return;
 	}
 
