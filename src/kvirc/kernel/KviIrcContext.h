@@ -172,7 +172,7 @@ protected:
 	// KviIrcConnection interface
 	//
 	void connectionFailed(int iError);
-	void connectionEstabilished();
+	void connectionEstablished();
 	void connectionTerminated();
 signals:
 	void stateChanged();
