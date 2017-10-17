@@ -287,7 +287,7 @@ protected:
 	void raiseError(KviError::Code eError);
 
 	/**
-	* \brief Called when the connection has been estabilished
+	* \brief Called when the connection has been established
 	*
 	* If it's a proxy we need to perform the login operations, otherwise
 	* we're connected to the irc server
