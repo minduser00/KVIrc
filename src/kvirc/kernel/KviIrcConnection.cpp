@@ -315,7 +315,7 @@ void KviIrcConnection::start()
 	m_pLink->start();
 }
 
-void KviIrcConnection::linkEstabilished()
+void KviIrcConnection::linkEstablished()
 {
 	m_eState = Connected;
 
@@ -333,7 +333,7 @@ void KviIrcConnection::linkEstabilished()
 	}
 
 	// FIXME: With STARTTLS this is called TWICE!
-	context()->connectionEstabilished();
+	context()->connectionEstablished();
 
 	// Ok...we're loggin in now
 	resolveLocalHost();

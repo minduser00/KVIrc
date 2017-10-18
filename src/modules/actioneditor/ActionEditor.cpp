@@ -216,7 +216,7 @@ SingleActionEditor::SingleActionEditor(QWidget * par,ActionEditor * ed)
 
 	m_pEnableAtLoginCheck = new QCheckBox(__tr2qs_ctx("Enable at Login","editor"),tab);
 	m_pEnableAtLoginCheck->setToolTip(__tr2qs_ctx("Check this option if this action should be enabled also during " \
-		"the login operations (so when the logical IRC connection hasn't been estabilished yet)","editor"));
+		"the login operations (so when the logical IRC connection hasn't been established yet)","editor"));
 	gl->addWidget(m_pEnableAtLoginCheck,2,2,1,2);
 
 	m_pSpecificWindowsCheck = new QCheckBox(__tr2qs_ctx("Enable Only in Specified Windows","editor"),tab);

@@ -127,7 +127,7 @@ unsigned int KviKvsEventManager::findAppEventIndexByName(const QString &szName)
 	{
 		if(KviQString::equalCI(szName,m_appEventTable[u].name()))return u;
 		//Backwards compatibility >_<
-		if((u == 4) && KviQString::equalCI(szName,"OnIrcConnectionEstabilished"))
+		if((u == 4) && KviQString::equalCI(szName,"OnIrcConnectionEstablished"))
 			return u;
 	}
 	return KVI_KVS_NUM_APP_EVENTS; // <-- invalid event number
@@ -139,7 +139,7 @@ KviKvsEvent * KviKvsEventManager::findAppEventByName(const QString &szName)
 	{
 		if(KviQString::equalCI(szName,m_appEventTable[u].name()))return &(m_appEventTable[u]);
 		//Backwards compatibility >_<
-		if((u == 4) && KviQString::equalCI(szName,"OnIrcConnectionEstabilished"))
+		if((u == 4) && KviQString::equalCI(szName,"OnIrcConnectionEstablished"))
 			return &(m_appEventTable[u]);
 	}
 	return 0;
@@ -600,7 +600,7 @@ void KviKvsEventManager::loadAppEvents(const QString & szFileName)
 		QString szEventName(m_appEventTable[i].name());
 		// Backwards compatibility >_<
 		if((i == 4) && !cfg.hasGroup(szEventName))
-			szEventName = "OnIrcConnectionEstabilished";
+			szEventName = "OnIrcConnectionEstablished";
 		if(cfg.hasGroup(szEventName))
 		{
 			cfg.setGroup(szEventName);
@@ -639,7 +639,7 @@ void KviKvsEventManager::saveAppEvents(const QString & szFileName)
 			// Backwards compatibility >_<
 			if((i == 4) && cfg.hasGroup(szEventName))
 			{
-				szEventName = "OnIRCConnectionEstabilished";
+				szEventName = "OnIRCConnectionEstablished";
 				bCompat = true;
 			}
 			cfg.setGroup(szEventName);

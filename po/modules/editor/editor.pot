@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-12 22:55+0200\n"
+"POT-Creation-Date: 2017-10-17 18:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,7 +125,7 @@ msgstr ""
 #: src/modules/actioneditor/ActionEditor.cpp:218
 msgid ""
 "Check this option if this action should be enabled also during the login "
-"operations (so when the logical IRC connection hasn't been estabilished yet)"
+"operations (so when the logical IRC connection hasn't been established yet)"
 msgstr ""
 
 #: src/modules/actioneditor/ActionEditor.cpp:222
