@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvirc_tr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-10 15:55+0200\n"
+"POT-Creation-Date: 2017-10-17 17:50+0200\n"
 "PO-Revision-Date: 2011-03-06 02:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
@@ -338,7 +338,7 @@ msgstr "Kategori:"
 #: src/modules/actioneditor/ActionEditor.cpp:218
 msgid ""
 "Check this option if this action should be enabled also during the login "
-"operations (so when the logical IRC connection hasn't been estabilished yet)"
+"operations (so when the logical IRC connection hasn't been established yet)"
 msgstr ""
 
 #: src/modules/actioneditor/ActionEditor.cpp:197
