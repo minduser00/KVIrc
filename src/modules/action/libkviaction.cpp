@@ -289,7 +289,7 @@ static bool action_kvs_cmd_destroy(KviKvsModuleCommandCall * c)
 
 		!sw: -l | --enable-at-login
 		Specifies that the action needs to be enabled at login time, that is
-		when a link to the server has been estabilished but the login
+		when a link to the server has been established but the login
 		operations haven't been carried out yet (and thus there is no real IRC connection).
 		This switch requires -c to work.
 
