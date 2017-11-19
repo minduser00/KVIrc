@@ -2003,6 +2003,22 @@ void KviChannelWindow::preprocessMessage(QString & szMessage)
 		{
 			if((*it) == szTmp)
 				*it = QString("\r!c\r%1\r").arg(*it);
+			else if((KviControlCodes::Bold == (*it)[0]) &&
+				((it->length() - szTmp.length()) > 1))
+			{
+				int i = 1, j = 0;
+				for( ; i < it->length(); ++i)
+				{
+					if((*it)[i] == szTmp[j])
+						++j;
+					else if(KviControlCodes::Bold == (*it)[i])
+					{
+						++i;
+						break;
+					}
+				}
+				*it = QString("\r!c%1\r%2\r%3").arg(szTmp.left(j),it->left(i),it->mid(i));
+			}
 			else
 				*it = QString("\r!c%1\r%2\r").arg(szTmp, *it);
 		}
