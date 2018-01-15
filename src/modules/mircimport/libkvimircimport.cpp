@@ -135,7 +135,7 @@ void KviMircServersIniImport::die()
 
 
 
-#define KVI_WWWMIRCCOUK_SERVERSINI "http://www.mirc.co.uk/servers.ini"
+#define KVI_WWWMIRCCOUK_SERVERSINI "https://www.mirc.co.uk/servers.ini"
 
 KviRemoteMircServerImportWizard::KviRemoteMircServerImportWizard(KviRemoteMircServersIniImport * f)
 : KviTalWizard(0)
