@@ -285,7 +285,7 @@ msgid ""
 "Internal error: trying to evaluate as read-write a read-only data location"
 msgstr ""
 "Error interno: intentando evaluar como lectura-escritura una locación de "
-"solo escritura"
+"solo lectura"
 
 #: src/kvirc/kvs/tree/KviKvsTreeNodeData.cpp:96
 msgid "Internal error: pure virtual evaluateReadOnlyInObjectScope called"
